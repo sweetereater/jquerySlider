@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- <div class="menu">
+            <div class="radio-btn">
+                <input type="radio" name="button" id="1" value="color">
+                <label for="1">color</label>
+            </div>
+            <div class="radio-btn">
+                <input type="radio" name="button" id="2" value="background-color">
+                <label for="2">backgroundColor</label>
+            </div>
+        </div> -->
+
+        <fieldset className="optionMenu">
+            <legend>Select:</legend>
+            <div class="buttonPanel">
+                <button class="button buttonClicked">color</button>
+                <button class="button">background-color</button>
+            </div>
+
+
+            <!-- <select name="select" id="menu">
+                <option value="color">color</option>
+                <option value="background-color">backGroundColor</option>
+            </select> -->
+        </fieldset>
+
+        <div class="content">
+            <div class="slider">
+                <div class="red"></div>
+                <div class="green"></div>
+                <div class="blue"></div>
+            </div>
+            <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil voluptatibus ut aliquid?
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

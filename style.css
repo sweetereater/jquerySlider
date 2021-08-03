@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 600px;
+}
+
+.menu {
+    height: 100px;
+    background-color: bisque;
+}
+
+.buttonPanel {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.button {
+    cursor: pointer;
+    color: grey;
+    background-color: rgb(228, 226, 226);
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.buttonClicked {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+}
+
+
+.content {
+    display: flex;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.text {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+
+.red, .blue, .green {
+    margin-top: 25px;
+    width: 300px;
+}
+
+.red .ui-slider-range { 
+    background-color: red
+}
+.red .ui-slider-handle { 
+    border-color: red;
+    background-color: white;
+}
+.green .ui-slider-range {
+    background-color: green; 
+}
+.green .ui-slider-handle {
+     border-color: green; 
+     background-color: white;
+}
+.blue .ui-slider-range {
+    background-color: blue; 
+}
+.blue .ui-slider-handle {
+     border-color: blue; 
+     background-color: white;
+}
